@@ -3,7 +3,7 @@ const config = {
   "debugEnabled": false,
 
   // Bot Owner, level 10 by default. A User ID. Should never be anything else than the bot owner's ID.
-  "ownerID": "238005886738628608",
+  "ownerID": "",
 
   // Bot Admins, level 9 by default. Array of user ID strings.
   "admins": [],
@@ -28,8 +28,7 @@ const config = {
     "systemNotice": "true", // This gives a notice when a user tries to run a command that they do not have permission to use.
     "welcomeChannel": "welcome",
     "welcomeMessage": "Say hello to {{user}}, everyone! We all need a warm welcome sometimes :D",
-    "welcomeEnabled": "false",
-    "premiumServer": "false"
+    "welcomeEnabled": "false"
   },
 
   // PERMISSION LEVEL DEFINITIONS.
