@@ -6,6 +6,7 @@ There are four things you need to have in order to be able to use this framework
 * A discord account
 * A discord application
 * A bot attached to that application
+* A glitch.com __NODE PROJECT__ (I cannot stress this enough, a website project will not do)
 
 When you have this all, you can read on.
 
