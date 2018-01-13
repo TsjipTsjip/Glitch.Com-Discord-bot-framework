@@ -34,8 +34,6 @@ const EnmapLevel = require("enmap-level");
 client.commands = new Enmap();
 client.aliases = new Enmap();
 client.settings = new Enmap({provider: new EnmapLevel({name: "settings"})});
-client.premium = new Enmap({provider: new EnmapLevel({name: "premium"})});
-client.premiumKeys = new Enmap({provider: new EnmapLevel({name: "premiumKeys"})});
 
 client.on("error", (e) => console.error(e));
 client.on("warn", (e) => console.warn(e));
