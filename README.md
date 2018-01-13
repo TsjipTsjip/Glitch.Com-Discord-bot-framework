@@ -1,5 +1,14 @@
 # GLITCH.COM DISCORD BOT FRAMEWORK
 
+## First of all...
+There are four things you need to have in order to be able to use this framework.
+* A github account
+* A discord account
+* A discord application
+* A bot attached to that application
+
+When you have this all, you can read on.
+
 ## Glitch.com
 You can simply import this repo on [glitch.com](https://glitch.com/), set the configurations and the token in the .env file and you're all set!
 
@@ -30,7 +39,7 @@ As a nice added feature, this bot is compatible with uptime robots as it sends o
 
 A simple setup for this service:
 * Make a new monitor and set it to the HTTP(S) mode.
-* Enter your project's url. (For example: \https://<project_domain>.glitch.com/ )
+* Enter your project's url. `(For example: https://<project_domain>.glitch.com/ )`
 * Set up the other settings to your likings and click add monitor.
 
 Boom! You've just set up a discord bot that is hosted 24/7 and is pinged for uptime automatically!
